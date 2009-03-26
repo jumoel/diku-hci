@@ -4,3 +4,5 @@ auto/*
 *.log
 *.pdf
 *.el
+*.bbl
+*.blg
