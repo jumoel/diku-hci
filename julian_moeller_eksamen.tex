@@ -1,0 +1,72 @@
+\documentclass[a4paper,11pt,danish]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+\usepackage{url}
+\usepackage{lastpage}
+\usepackage{bookmark}
+\usepackage{fancyhdr}
+\usepackage{charter}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{appendix}
+\pagestyle{fancy}
+
+
+\date{27. marts 2009}
+
+\newcommand{\mytitle}{Eksamensopgave}
+\newcommand{\mysubject}{Menneske-datamaskine interaktion (HCI)}
+
+\newcommand{\HCI}{menneske-datamaskine interaktion}
+
+\newcommand{\mycpr}{180387-1619}
+
+\newcommand{\email}[1]{\href{mailto:#1}{\texttt{#1}}}
+
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+
+\renewcommand{\appendixtocname}{Bilag}
+\renewcommand{\appendixpagename}{Bilag}
+\renewcommand{\appendixname}{Bilag}
+
+
+\title{\huge \mysubject \\ \normalsize \mytitle}
+
+\author{
+\begin{tabular}{lr}
+  Navn & Julian Møller \\
+  CPR-nummer & 180387-1619 \\
+  di-nummer & di080047 \\
+  E-mail & \email{di080047@diku.dk} \\
+\end{tabular}
+}
+
+\fancyhead{}
+
+ 	\lhead{}
+ 	\chead{}
+ 	\rhead{}
+ 	\lfoot{}
+ 	\cfoot{}
+ 	\rfoot{}
+
+\fancyhead[L]{HCI: \mytitle}
+\fancyhead[C]{Julian Møller}
+\fancyhead[R]{\mycpr}
+\fancyfoot[L]{\rightmark}
+\fancyfoot[R]{Side \thepage \ af \pageref{LastPage}}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\pagebreak
+
+\include{del_a.tex}
+\include{del_b.tex}
+
+
+\end{document}
