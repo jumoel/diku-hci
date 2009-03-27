@@ -1,0 +1,78 @@
+<mockup version="1.0" skin="sketch" measuredW="682" measuredH="467">
+  <controls>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Canvas" x="524" y="224" w="121" h="89" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="527" y="255" w="-1" h="-1" measuredW="113" measuredH="25" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foto%20af%20%22XLarge%22</text>
+        <align>center</align>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Paragraph" x="524" y="320" w="129" h="88" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>509%20s%E6der%0A28%20d%F8re%0A0%20L%20baggagerum%0A0%2C2%20km/L</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Canvas" x="25" y="224" w="121" h="89" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Label" x="35" y="255" w="-1" h="-1" measuredW="100" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foto%20af%20%22Small%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Canvas" x="192" y="224" w="121" h="89" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="195" y="255" w="-1" h="-1" measuredW="113" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foto%20af%20%22Medium%22</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Paragraph" x="192" y="320" w="129" h="88" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>8%20s%E6der%0A4%20d%F8re%0A800%20L%20baggagerum%0A9%2C0%20km/L</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="2" y="9" w="680" h="458" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>AVIS%20Biludlejning%0Ahttp%3A//www.avis.dk</text>
+        <verticalScrollbar>true</verticalScrollbar>
+        <value>0</value>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="374" y="255" w="-1" h="-1" measuredW="104" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foto%20af%20%22Large%22</text>
+        <align>center</align>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Paragraph" x="365" y="320" w="129" h="88" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>9%20s%E6der%0A5%20d%F8re%0A1300%20L%20baggagerum%0A25%2C0%20km/L</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Link" x="25" y="408" w="-1" h="-1" measuredW="56" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E6lg%20%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Paragraph" x="25" y="320" w="129" h="88" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>4%20s%E6der%0A2%20d%F8re%0A500%20L%20baggagerum%0A13%2C2%20km/L</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Link" x="365" y="407" w="-1" h="-1" measuredW="56" measuredH="25" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E6lg%20%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Link" x="524" y="407" w="-1" h="-1" measuredW="56" measuredH="25" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E6lg%20%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::ScratchOut" x="17" y="89" w="650" h="101" measuredW="205" measuredH="107" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Canvas" x="365" y="224" w="121" h="89" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Link" x="192" y="407" w="-1" h="-1" measuredW="56" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>V%E6lg%20%3E%3E</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
