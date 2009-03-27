@@ -1,0 +1,105 @@
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "julian_moeller_eksamen"
+%%% End: 
+
+\subsection{Forlsag til redesign}
+\label{sec:forlsag-til-redesign}
+
+Følgende afsnit beskriver de forskellige forslag til redesign, jeg har
+lavet på baggrund af problemerne beskrevet i afsnit
+\ref{sec:analyse-af-problemer}.
+
+``Overstregning'' med gråt på figurerne er lavet, for at der kun er
+fokus på den del, jeg beskriver, og ikke på resten af websiden.
+
+\subsubsection{Menulinjen}
+\label{sec:menulinjen}
+
+Jeg foreslår, at menulinjen på AVIS' websted ændres til at ligne den
+på \figref{fig:menubar}.
+
+Mange brugere havde problemer med at finde den information de søgte
+(fx om bestemmelser om forsikring, minimumsalder o.l.), fordi
+menupunkterne på AVIS' nuværende webside (\figref{fig:avisdk}) ikke var
+klare, og siderne der blev linket til indeholdt ikke den information
+brugerne forventede.
+
+Hvis websidens navigation blev ændret til mit forslag, ville både
+\emph{learnability} og \emph{errors} \cite[s. 26]{nielsen} blive
+forbedret, idet brugerne ville have langt nemmere ved at finde den
+information de havde brug for til at foretage en reservering af en
+udlejningsbil. Marcus' tre principper \cite{marcus} ville også blive
+højnet.
+
+De basale designprincipper for \emph{ease of use} i \cite[3.6]{benyon}
+overholdes også bedre ved at give en klar navigation, der indeholder
+den information brugerne oftest eftersøger.
+
+\subsubsection{Biloversigten}
+\label{sec:biloversigten}
+
+AVIS' nuværende biloversigt (\figref{fig:avisbilovs}) viser de
+forskellige biltyper der er tilgængelige. Dog er det ikke angivet hvor
+store bilerne er, hvor mange døre, sæder o.l. de har, samt fx
+lastekapacitet. Endvidere er der nogle af billederne af biler, der
+linker til forsiden af AVIS' webside, mens andre ikke linker til
+noget.
+
+Mit forslag er at ændre biloversigten til noget lignende
+\figref{fig:choosecar}. Dels vil siden være mere konsistent, hvilket
+naturligvis er ønskværdigt \cite[s. 65]{benyon} \cite[s. 426]{marcus},
+og dels vil det blive nemmere for brugerne at leje en bil direkte fra
+oversigten, når de har fundet en type de kan bruge. \emph{Ease of use}
+\cite[s. 65]{benyon} og \emph{learnability} \cite[s. 26]{nielsen}
+forøges altså. Endvidere burde der opstå færre fejl, da brugerne på
+forhånd kan se hvad der differentierer de forskellige typer biler,
+samt hvad der evt. er af krav ved leje af dem.
+
+\subsubsection{Søgeinterfacet}
+\label{sec:sogeinterfacet}
+
+Det primære fokus for mit redesign har ligget på AVIS' websteds
+søgeinterface (som kan ses på \figref{fig:avisdk}). Der var flere
+problemer med interfacet, som jeg har forsøgt at rette op
+på. Resultatet kan ses på \figref{fig:search}.
+
+Først og fremmest forsøger mit redesign at mindske fejlraten
+\cite[s. 26]{nielsen}. Dette sker fx ved at nøjes med en enkelt knap
+(``Lej bil''), hvor der før var to (``Fortsæt'' og ``Få et tilbud'').
+Knappen er desuden kun aktiv, hvis der ikke er ``fejl'' i
+udlejningen. Dvs. at der fx skal være valgt et udlejningssted og et
+afhentnings- og afleveringstidspunkt, der er kompatible med det valgte
+sted. Er der ``fejl'' i formularen vises det med en rød bar over
+udlejningsinterfacet (\emph{Udlejningskontoret har desværre ikke åbent
+  \ldots}). Sammen med andre informationsmeddelelser (som fx. at der
+er gebyr ved unge chauffører) og beskrivende tekst ved alle elementer
+forsøges \emph{learnability} \cite[s. 26]{nielsen} også forbedret,
+idet søgeinterfacet selv gør brugeren opmærksom på den information de
+har brug for undervejs.
+
+Dernæst forsøger redesignet også at give en bedre \emph{learnability}
+, ved at gøre det muligt at vælge udlejningssteder både ved hjælp af
+et kort, mens der også er mulighed for at indtaste en adresse. Når en
+adresse indtastes, skal der vises en \emph{drop down}-menu, med
+adresser eller udlejningssteder, der passer. Blev der tastet
+``København'' i feltet skulle alle udlejningssteder i København altså
+vises og kunne vælges.
+
+Redesignet forsøger at udnytte Gestalt-lovene \cite[5.7]{benyon} ved
+at gruppere meddelelser sammen, dernæst en blok med information om
+og valg af udlejningssted og dato. Herefter en blok med chauffør- og
+bilinformation efterfulgt af valg af tilbehør. I bunden vises så
+prisen grupperet med en ``Lej bil''-knap.
+
+Marcus' to principper \emph{economize} og \emph{communicate} er
+forsøgt opfyldt ved at gøre det umiddelbart mest vigtige -- prisen --
+let at få øje på, så brugeren ikke er i tvivl om hvad det vil koste
+ham at leje den ønskede bil. Prisen skal opdateres automatisk så den
+hele tiden passer til brugerens nuværende valg.
+
+Alt i alt burde mit redesign give en mere flydende og behagelig
+lejeproces, hvor fejlraten mindskes og brugeren bliver gjort opmærksom
+på fejl og muligheder undervejs, så de ikke frustreres ved at tro alt
+er godt, mens det ikke er det. Samtidig gør mit redesign det nemmere
+at få et samlet overblik, da 
