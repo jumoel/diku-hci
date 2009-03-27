@@ -2,6 +2,9 @@
 \subsection{Analyse af problemer ved AVIS' webside}
 \label{sec:analyse-af-problemer}
 
+\subsubsection{Affinitetsdiagram}
+\label{sec:affinitetsdiagram}
+
 I det til opgaveformuleringen vedlagte bilag D har jeg lokaliseret
 gennemgående temaer i problempunkterne ved at anvende algoritmen på
 \cite[s. 483]{benyon}. Hermed fik jeg dannet et affinitetsdiagram, som
@@ -18,33 +21,33 @@ ikke listet i prioriteret rækkefølge.
     \hline
     Nr. & Titel & Beskrivelse \\ \hline
 
-    1
+    U1
     & Hjælpelinks svære at finde 
     & AVIS' webside har en række hjælpelinks, men de er svære at finde,
       da de er placeret nederst på siden
     \\ \hline
 
-    2
+    U2
     & Uklar opdeling af information
     & Navigationslinksne i topmenuen har misvisende titler ift. de linkede
       siders indhold.
     \\ \hline
 
-    3
+    U3
     & Hjælpetekst til formularer misvisende
     & Fx står der, at der skal vælges postnummer, hvilket blot resulterer i
       endnu et formularfelt, hvori land skal indtastes. Endvidere står det ikke
       angivet, at datofelterne på søgeformularen netop er datofelter.
     \\ \hline
 
-    4
+    U4
     & Navigation inkonsistent
     & Navigation via billeder resulterer i en side, der repræsenterer indholdet
       af billedet. Dette er dog ikke tilfældet på biloversigten, hvor der linkes
       til forsiden.
     \\ \hline
 
-    5
+    U5
     & Søgning efter udlejningskontorer forvirrende
     & Medmindre man er meget stedkendt, er der ikke nogen mulighed for at finde
       ud af hvor et udlejningskontor ligger, medmindre det lokaliseres andetsteds.
@@ -52,10 +55,85 @@ ikke listet i prioriteret rækkefølge.
       for åbningstid, da der ikke henvises til nærmeste andet biludlejningskontor.
     \\ \hline
 
-    6
+    U6
     & Tvivl om brug af knapper ved søgning
     & Der er to knapper på søgeformularen på forsiden: ``Fortsæt'' og ``Få et
       tilbud''. Der er tvivl hos brugerne om knappernes brug.
     \\ \hline
   \end{tabular}
 \end{center}
+
+\begin{center}
+  \begin{tabular}{ | c | p{5cm} | p{6cm} |}
+    \multicolumn{3}{c}{\textbf{Manglende information}} \\
+
+    \hline
+    Nr. & Titel & Beskrivelse \\ \hline
+
+    M1
+    & Åbnings-, afleverings- og afhentningstider er ikke tydelige
+    & Hvis man har forsøgt at leje en bil uden for et centers åbnignstid,
+      får man blot at vide med en meget lys grå skrift, at bilen kan afhentes
+      på et andet, givent tidspunkt. Informationen overses altså let.
+    \\ \hline
+
+    M2
+    & Alternative muligheder mangler
+    & Hvis man har valgt et udlejningssted og/eller en bil, der ikke kan lade
+      sig gøre, mangler der en automatisk visning af tilgængelige alternativer.
+    \\ \hline
+
+    M3
+    & Regler o.l. er svære at finde
+    & Dels er regler om fx minimumsalder svære at finde, da de gemmer sig på en
+      underside til et af linksne i bunden af websiden. Desuden bliver der ikke
+      gjort opmærksom på eventuelt gældende regler undervejs i bestillingen af 
+      en lejebil.
+    \\ \hline
+
+    M4
+    & Fejlbeskeder mangler og/eller er misvisende
+    & Mange af fejlbeskederne gør ikke opmærksom på deres grund til at blive vist,
+      så brugeren har kun lille mulighed for at rette eventuelle fejl.
+    \\ \hline
+
+    M5
+    & Bilbeskrivelser svære at differentiere
+    & Oversigten over tilgængelige biltyper gør det ikke let at differentiere
+      mellem forskellige biltyper. Fx er der ikke nogen enkel måde at finde de biler,
+      der har 6 sæder, bortset fra manual gennemsøgning af alle biltyper.
+    \\ \hline
+
+  \end{tabular}
+\end{center}
+
+Som det kan ses af de to ovenstående tabeller, er de primære problemer
+på AVIS' webside af kommunikationskarakter. Dvs., at de repræsenterer
+fejl og mangler, som brugeren har behov for at se, for at kunne
+foretage en tryg og velovervejet bestilling.
+
+\subsubsection{Korrelation mellem analyse/teori og diagram}
+\label{sec:korr-mell-analys}
+
+I PACT-analysen blev der lagt op til at leje af bil via websiden
+primært ville foregå alene, dvs. uden hjælpeansatte til rådighed o.l
+(afsnit \ref{sec:contexts}). Derfor er det meget vigtigt, at AVIS'
+webside gør alt hvad den kan for at gøre det let for brugerne selv at
+finde den information de søger efter. Dette muliggør AVIS' webside dog
+ikke ordentligt.
+
+Dermed lever AVIS' webside heller ikke op til følgende af Nielsens
+krav \cite[s. 26]{nielsen}:
+
+\begin{itemize}
+\item \emph{Learnability} \\
+  Systemet er forvirrende og mangler
+  information, så nye brugere har svært ved at komme i gang
+\item \emph{Errors} \\
+  Der kan nemt forekomme fejl under brugen, og hjælpen til at
+  overkomme disse fejl er utilstrækkelig
+\item \emph{Satisfaction} \\
+  Overordnet set er der en del, der direkte udtrykker irritation ved
+  brug af AVIS' webside. Kombineres dette med de mange fejl omkring
+  kommunikation og information er resultatet ikke flatterende.
+\end{itemize}
